@@ -8,7 +8,7 @@ To get started, please follow the instructions below:
 
 1. Fork this repository by clicking on the "Fork" button on the top right corner of the page
 2. Clone the repository to your local machine by running git clone <repository-url> in your terminal. Replace <repository-url> with the actual URL of the repository.
-3. Navigate to the folder using the cd command in your terminal. This should be the folder that contains the switchStatement.js and ifStatement.js files.
+3. Navigate to the cloned repository using the cd command in your terminal. This should be the folder that contains the switchStatement.js and ifStatement.js files.
 4. Open the ifStatement.js file in your code editor and start working on the tasks related to if-else statements.
 5. Open the switchStatement.js file in your code editor and start working on the tasks related to switch statements.
 6. Follow the instructions provided in the task descriptions to complete each task.
