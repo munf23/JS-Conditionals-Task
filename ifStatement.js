@@ -26,10 +26,10 @@ Description:
   Otherwise, you will print a message saying that they are not allowed to enter.
 
 Steps:  
-  1. Define two variables userName and role, and assign them the values YOUR_NAME and Admin respectively.
-  2. Ask the user to enter their name and store it in a variable called userName.
-  3. Check if the entered userName is equal to YOUR_NAME and the role is equal to Admin.
-    - If both conditions are true, print the message Hello ${userName}, you have permission to access the restricted area.
+  1. Define two variables username and role, and assign them the values "YOUR_NAME" and "Admin" respectively.
+  2. Ask the user to enter his/her name and store it in a variable called enteredUsername.
+  3. Check if the entered username is equal to YOUR_NAME and the role is equal to Admin.
+    - If both conditions are true, print the message Hello ${username}, and you have permission to access the restricted area.
     - If either of the conditions is false, print the message Hello ${userName}, I'm sorry but it seems you're not authorized to access the restricted area.
 ***********************************************************/
 // TODO: ADD YOUR CODE BELOW
@@ -53,7 +53,7 @@ Task 4 (if..else Statement):
 
 Steps:
   1. Create a program that prompts the user for their age and checks if they are old enough to vote.
-    - If the user is 18 or older, the program should ask if they are registered to vote. 
+    - If the user is 18 or older, the program should ask if they are registered to vote (Hint: Use confirm() function). 
     - If they are registered, the program should print the message "Great! You are all set to vote."
     - If they are not registered, the program should print the message "You still have time to register to vote."
     - If the user is younger than 18, the program should calculate how many years are left until they turn 18 and print the message "You will be eligible to vote in X years", where X is the number of years left.
