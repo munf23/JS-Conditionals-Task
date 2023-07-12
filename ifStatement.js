@@ -27,7 +27,7 @@ Description:
 
 Steps:  
   1. Define two variables userName and role, and assign them the values YOUR_NAME and Admin respectively.
-  2. Ask the user to enter their name and store it in a variable called .
+  2. Ask the user to enter their name and store it in a variable called userName.
   3. Check if the entered userName is equal to YOUR_NAME and the role is equal to Admin.
     - If both conditions are true, print the message Hello ${userName}, you have permission to access the restricted area.
     - If either of the conditions is false, print the message Hello ${userName}, I'm sorry but it seems you're not authorized to access the restricted area.
