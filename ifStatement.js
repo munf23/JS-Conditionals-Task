@@ -13,6 +13,18 @@ Note:
    You can change the value of the age variable to test different cases. If the person's age is less than the minimum driving age, nothing will be printed.
 ************************************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let userAge=14;
+let  minimum= 18;
+
+if(userAge >= minimum){
+  console.log("yor are old  enough to darive " );
+}
+else
+{
+    console.log("yor are not eligible to get a licnse yet."
+   
+}
+
 
 /************************************************************************************************
 Task 2 (if..else Statement): 
@@ -33,6 +45,22 @@ Steps:
     - If either of the conditions is false, print the message Hello ${userName}, I'm sorry but it seems you're not authorized to access the restricted area.
 ***********************************************************/
 // TODO: ADD YOUR CODE BELOW
+let YOUR_NAME=ali 
+let role= "admin";
+let enterusernamr=prompt("enter your username");
+if (YOUR_NAME === enterusernamr &&role === "admin") {
+  console.log( "Hello ${enterusername},you have permission to access the restricted area");
+}
+  else
+   {  
+  
+    console.log(" Hello ${username}, Im sorry  but it seems you" );
+    
+  }
+  
+  
+}
+
 
 /************************************************************************************************
 Task 3 (if..else Statement):
@@ -47,7 +75,20 @@ Steps:
     - If the number is zero, print a message saying that it is zero.
 ************************************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let num =parseFloat(prompt("enter a number:"));
+let parsdnumber= parseint(num)
+if (num >0){
+  console.log("the namber  is positive");
 
+}
+elseif(num < 0)
+{
+ console.log("the namer is negtive") ;
+
+ 
+ 
+  console. log("the namber is zero");
+}
 /*************************************************************************************************
 Task 4 (if..else Statement):
 
@@ -59,6 +100,21 @@ Steps:
     - If the user is younger than 18, the program should calculate how many years are left until they turn 18 and print the message "You will be eligible to vote in X years", where X is the number of years left.
 ************************************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let age = parseInt(prompt("Enter your age: "));
+if (age >= 18) {
+    let registered = confirm("Are you registered to vote?");
+    if (registered) {
+        console.log("Great! You are all set to vote.");
+    } else {
+        console.log("You still have time to register to vote.");
+    }
+    
+} else {
+    let yearsLeft = 18 - age;
+    console.log("You will be eligible to vote in " + yearsLeft + " years.");
+}
+
+
 
 /*************************************************************************************************
 Task 5 (if..else Statement): 
@@ -122,3 +178,4 @@ Steps:
     - Use the toFixed() method to format the totalCost to 2 decimal places.
 *************************************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+
